@@ -205,8 +205,7 @@
         - let middleName: String?
         - let firstName: String
         - let displayName = middleName ?? firstName
-    - logical and operational condistionals
-
+    - logical and operational conditionals
         - if let tracking = item.tracking?[i] where tracking == 1 {}
 - **protocols**
     - the interface the blueprint of the methods
@@ -304,7 +303,6 @@
         - func displayString(innerFunc:(String) -> Void) { innerFunc(“bob”) }
         - displayString(printString)
     - functions as a return type (varables are retained [closed] within fn1)
-
         - func fn1() -> (Int) -> () { func fn2(n:Int) { print(n) } return fn2 }
         - let x = fn1
         - x(2)
