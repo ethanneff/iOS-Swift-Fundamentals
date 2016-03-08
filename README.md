@@ -8,6 +8,8 @@
 
 **status** working.
 
+![image](http://i.imgur.com/jGgxGBI.png)
+
 **notes** 
 - **terms**
     - string interpolation print(“hello \(var)”)
